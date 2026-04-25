@@ -1,15 +1,16 @@
 # List of lists containing products and their prices
 # Liste içinde liste yapısı ile ürün ve fiyat işlemleri
 
-urunler = [["ayakkabi", 100], ["pantolon", 200], ["gomlek", 150], ["canta", 250], ["saat", 300]]
 
-def indirim(x):
-    # x[0] -> product name, x[1] -> original price
-    # Apply 10% discount (multiply by 0.9)
-    urun, fiyat = x[0], x[1] * 0.9
-    return [urun, fiyat]
+products = [["shoes", 100], ["trousers", 200], ["shirt", 150], ["bag", 250], ["watch", 300]]
+
+def apply_discount(x):
+    # x[0] is the product name, x[1] is the original price
+    # Multiplying by 0.9 results in a 10% discount
+    product, price = x[0], x[1] * 0.9
+    return [product, price]
 
 
-indirimli_urunler = list(map(indirim, urunler))
+discounted_products = list(map(apply_discount, products))
 
-print(f"İndirimli Ürünler / Discounted Products: {indirimli_urunler}")
+print(f"Discounted Products List: {discounted_products}")
