@@ -1,9 +1,12 @@
-# 🚀 Daily Grind
+**English:**
+just a place where i keep the code i write while learning. no big projects, just daily practice and whatever i'm working on at the moment.
+`python/` — python stuff  
+`csharp/` — c# console exercises
+`csharp/` — c# exercises
 
-This is my personal archive where I document my journey in software development. It contains all the logic, scripts, and practices from my studies and beyond.
 
----
-
-### 👨‍🍳 The Vision
-I'm focused on mastering the fundamentals of engineering, writing clean code, and building robust logic across different environments. Every commit is a part of the process.
-
+**Türkçe:**
+öğrenirken yazdığım kodları tuttuğum bir yer. büyük projeler yok, sadece günlük pratik ve o an üzerinde çalıştığım şeyler.
+`python/` — python dosyaları  
+`csharp/` — c# konsol alıştırmaları
+`csharp/` — c# alıştırmaları
